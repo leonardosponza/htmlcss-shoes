@@ -26,13 +26,21 @@ nav li a{
 margin: 0 auto;
 
 }
+/* prima scarpa */
 #scarpa1{
 background-color: red;
-height: 800px;
+height: 1000px;
 }
 img{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+.testi{
+    position: relative;
+    font-size: 50px;
+    color: yellow;
+    text-align: center;
+    line-height: 1500px;   
 }

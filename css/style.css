@@ -23,13 +23,13 @@ nav li a{
 }
 .container{
     width: 100%;
-margin: 0 auto;
+    margin: 0 auto;
 
 }
 /* prima scarpa */
 #scarpa1{
-background-color: red;
-height: 1000px;
+    background-color: red;
+    height: 1000px;
 }
 img{
     position: absolute;
@@ -42,5 +42,26 @@ img{
     font-size: 50px;
     color: yellow;
     text-align: center;
-    line-height: 1500px;   
+    line-height: 1500px; 
+    font-weight: 700;  
+}
+.testi2{
+    position: relative;
+    font-size: 50px;
+    color:green;
+    text-align: center;
+    line-height: 1500px; 
+    font-weight: 700;
+
+}
+#scarpa2{
+    background-color: green;
+    height: 1000px;
+}
+.posizione{
+    position: relative;
+}
+#scarpa3{
+    background-color: yellow;
+    height: 1000px;
 }

@@ -3,12 +3,36 @@
     padding: 0;
     box-sizing: border-box;
 }
-.fixnumber{
+
+nav .fixnumber{    
     position: fixed;
     top: 0;
-    right: 0%;
-    background-color: aqua;
-    display: inline-block;
+    right: 0;
     list-style-type: none;
+    font-size: 30px; 
     
+}
+nav li a{
+    display: block;
+    width: 50px;
+    height: 50px;
+    margin: 40px 20px;
+    background-color: white;
+    border-radius: 50%;
+    line-height: 50px;
+}
+.container{
+    width: 100%;
+margin: 0 auto;
+
+}
+#scarpa1{
+background-color: red;
+height: 800px;
+}
+img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
